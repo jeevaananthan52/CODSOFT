@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name | Portfolio</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f4;
+            color: #222;
+        }
+        header {
+            background: #222;
+            color: #fff;
+            padding: 40px 0 20px 0;
+            text-align: center;
+        }
+        header img.logo {
+            width: 80px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+        header h1 {
+            margin: 10px 0 5px 0;
+            font-size: 2.5rem;
+        }
+        header p {
+            font-size: 1.2rem;
+            color: #ccc;
+        }
+        section {
+            max-width: 900px;
+            margin: 40px auto;
+            background: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.07);
+        }
+        .about {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+        }
+        .about img {
+            width: 140px;
+            border-radius: 50%;
+            border: 3px solid #222;
+        }
+        .skills ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        .skills li {
+            background: #222;
+            color: #fff;
+            padding: 8px 18px;
+            border-radius: 20px;
+            font-size: 1rem;
+        }
+        .projects {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 24px;
+        }
+        .project-card {
+            background: #f9f9f9;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+            padding: 18px;
+            text-align: center;
+        }
+        .project-card img {
+            width: 100%;
+            max-width: 220px;
+            border-radius: 6px;
+            margin-bottom: 10px;
+        }
+        .resume a {
+            display: inline-block;
+            padding: 10px 24px;
+            background: #222;
+            color: #fff;
+            border-radius: 4px;
+            text-decoration: none;
+            margin-top: 10px;
+        }
+        .contact p {
+            margin: 8px 0;
+            font-size: 1.1rem;
+        }
+        footer {
+            background: #222;
+            color: #fff;
+            text-align: center;
+            padding: 18px 0;
+            margin-top: 40px;
+            font-size: 1rem;
+        }
+        @media (max-width: 700px) {
+            .about {
+                flex-direction: column;
+                text-align: center;
+            }
+            .projects {
+                grid-template-columns: 1fr;
+            }
+            .achievements ul {
+    list-style: disc inside;
+    padding-left: 20px;
+}
+
+.achievements li {
+    margin-bottom: 18px;
+    font-size: 1.08rem;
+    line-height: 1.5;
+}
+
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+
+        <h1>Jeevaananthan</h1>
+        <p>Web Developer & Designer | Creating digital experiences</p>
+    </header>
+
+    <!-- About Section -->
+    <section class="about">
+       
+        <div>
+            <h2>About Me</h2>
+            <p>
+                Hi! I’m Your Jeevaananthan, a passionate web developer with experience in building responsive and interactive websites. I specialize in HTML, CSS, and JavaScript, and love turning ideas into beautiful digital products. Let’s build something amazing together!
+            </p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>UI/UX Design</li>
+            <li>Git & GitHub</li>
+        </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section>
+        <h2>Projects</h2>
+        <div class="projects">
+            <div class="project-card">      
+                <h3>PORTFOLIO</h3>
+                <p> Shows web development skills and version control.</p>
+
+
+
+
+            </div>
+            <div class="project-card">
+                
+                <h3>Student Record Management System</h3>
+                <p> Demonstrates file/database handling and GUI design</p>
+            </div>
+            <!-- Add more project cards as needed -->
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section class="resume">
+        <h2>Resume</h2>
+        <a href="file:///C:/Users/jeeva/Downloads/white%20simple%20student%20cv%20resume%20(2).pdf" download>Download My Resume (PDF)</a>
+    </section>
+    <!-- Achievements Section -->
+<section class="achievements">
+  <h2>Achievements</h2>
+  <ul>
+      <li>
+          <strong>Winner, Web Design Competition</strong> – TechFest 2024
+          <br>
+          Recognized for outstanding creativity and technical execution.
+      </li>
+      <li>
+          <strong>Certified Front-End Developer</strong> – FreeCodeCamp, 2023
+          <br>
+          Completed a rigorous curriculum in responsive web design and JavaScript.
+      </li>
+      <li>
+          <strong>DSA problem  solver</strong>
+          <br>
+          Solved over Hundred problems on Leetcode,Codechef,Codeforces.
+          <br>
+          <a href="https://codolio.com/profile/jeeva" target="_blank">Link</a>
+      </li>
+      <!-- Add more achievements as needed -->
+  </ul>
+</section>
+
+
+    <!-- Contact Section -->
+    <section class="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:your.email@example.com">jeevaananthan@52gmail.com</a></p>
+        <p>Phone: +91 8072682125
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        &copy; 2025 Your Name. All rights reserved.
+    </footer>
+</body>
+</html>
